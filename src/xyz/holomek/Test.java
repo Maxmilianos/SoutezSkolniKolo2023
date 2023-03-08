@@ -1,42 +1,24 @@
 package xyz.holomek;
 
-import xyz.holomek.template.gui.Number1;
-
-import javax.swing.*;
-import java.io.File;
+import xyz.holomek.ukoly.ukol1.Ukol1;
+import xyz.holomek.ukoly.ukol2.Ukol2;
+import xyz.holomek.ukoly.ukol3.Ukol3;
 
 public class Test {
 
     /*
-    hlavni metoda volana, zahaji file chooser a pote zavola konstruktor Domino tridy
+    hlavni metoda volana, zavola konstruktor tridy
      */
     public static void main(String[] args) {
-//        JFrame frame = new JFrame();
-//        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-//
-//        // inicializace filechooseru
-//        JFileChooser fileChooser = new JFileChooser(".");
-//        int result = fileChooser.showOpenDialog(frame);
-//        fileChooser.setFileSelectionMode(JFileChooser.FILES_ONLY);
-//        frame.dispose();
-//
-//        // kontrola zda probehlo vse uspesne
-//        if (result != JFileChooser.APPROVE_OPTION) {
-//            System.out.println("Musíte zvolit soubor");
-//            return;
-//        }
-//
-//        File selectedFile = fileChooser.getSelectedFile();
-//        // vsude se uvadi ze vstupni soubor je .bmp, tudiz davam podminku
-//        if (!selectedFile.getName().endsWith(".bmp")) {
-//            System.out.println("Nebyl zvolen BMP soubor.");
-//            return;
-//        }
-       // File selectedFile = new File("C:\\Users\\soutez\\IdeaProjects\\UstredniKolo\\reseni\\priklad01.bmp");
 
-//        System.out.println("Byl zvolen soubor: " + selectedFile.getName());
-        Number1 run = new Number1();
-        run.initializace();;
+        // Pro kazdy ukol staci odkomentovat jeho blbost
+//        Ukol1 run = new Ukol1();
+
+//        Ukol2 run = new Ukol2();
+
+        Ukol3 run = new Ukol3();
+
+        run.inicializace();
     }
 
 }

@@ -50,6 +50,10 @@ public class UtilFiles {
     public static ArrayList<String> readFromFile(File file) {
         return readFromFile(file.getAbsolutePath());
     }
+    // metoda pro cteni z souboru radky, vraci je v listu, odkazuje na metodu se stringem
+    public static String readFromFileInOneString(File file) {
+        return readFromFileInOneString(file.getAbsolutePath());
+    }
 
 
     // metoda pro cteni z souboru radky, vraci je v listu
@@ -70,6 +74,25 @@ public class UtilFiles {
             e.printStackTrace();
         }
         return lines;
+    }
+    // metoda pro cteni z souboru radky, vraci je v listu
+    public static String readFromFileInOneString(String filePath) {
+        String ret = null;
+        try {
+            BufferedReader bufferedReader = new BufferedReader(new FileReader(filePath));
+            String row = null;
+
+            while ((row = bufferedReader.readLine()) != null) {
+                ret += row;
+            }
+
+            bufferedReader.close();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return ret;
     }
 
     // metoda pro prejmenovani slozky ci souboru

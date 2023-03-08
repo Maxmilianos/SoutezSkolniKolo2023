@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Úkol do AJ",
+    "description": "Vyplnit cvičení č. 24/2",
+    "completion_date": "25/01/2023",
+    "priority": "nizka"
+  },
+  {
+    "name": "Pokácet dříví",
+    "description": null,
+    "completion_date": "27/04/2022",
+    "priority": "nizka"
+  },
+  {
+    "name": "Jít na nákup",
+    "description": "Chleba, rohlíky, mléko, vajíčka, zeleninu, maso",
+    "completion_date": "14/04/2022",
+    "priority": "vysoka"
+  },
+  {
+    "name": "Jít cvičit",
+    "description": null,
+    "completion_date": "28/04/2023",
+    "priority": "stedni"
+  },
+  {
+    "name": "Jít běhat",
+    "description": "Minimálně 10 kilometrů",
+    "completion_date": "30/10/2022",
+    "priority": "vysoka"
+  },
+  {
+    "name": "Přečíst si knihu",
+    "description": null,
+    "completion_date": "08/06/2022",
+    "priority": "stredni"
+  },
+  {
+    "name": "Koupit si boty",
+    "description": null,
+    "completion_date": "24/01/2023",
+    "priority": "vysoka"
+  },
+  {
+    "name": "Naučit se pracovat s JSON knihovnou",
+    "description": null,
+    "completion_date": "03/06/2022",
+    "priority": "nizka"
+  },
+  {
+    "name": "Naprogramovat Flappy Bird",
+    "description": "https://flappybird.ee/",
+    "completion_date": "20/02/2023",
+    "priority": "vysoka"
+  }
+]
